@@ -49,24 +49,22 @@
     <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    
     <PackageCertificateKeyFile>Trakl_Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="pages\about\about.css" />
     <Content Include="pages\home\home.css" />
     <Content Include="default.html" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-    
+    <Content Include="pages\settings\settings.css" />
     <None Include="Trakl_Windows_TemporaryKey.pfx" />
-    
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />

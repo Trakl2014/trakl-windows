@@ -6,9 +6,27 @@
     <SharedGUID>cdadf657-f9c2-41f6-a5a4-e9a3afdbc189</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)css\shared.css" />
+    <Content Include="$(MSBuildThisFileDirectory)images\green-arrow.svg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\ico_swipe_right_s.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\logo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\red-arrow.svg" />
     <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\angular\angular-animate.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\angular\angular-animate.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\angular\angular-touch.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\angular\angular-touch.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\angular\angular.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\angular\angular.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\jquery-2.1.1.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)lib\readme.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\about\about.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\about\about.html" />
     <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
     <Content Include="$(MSBuildThisFileDirectory)pages\home\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\index.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\settings\settings.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\settings\settings.html" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,32 @@
+.should-not-go {
+    background-color: #fecccc;
+    color: #c1272e;
+}
+
+.should-go {
+    background-color: #D7F4D7;
+    color: #106837;
+}
+
+.travel-time {
+    margin: 20px auto;
+    font-size: 170px;
+    text-align: center;
+}
+
+.trend-indicator {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 75px;
+    margin: 20px auto;  
+    bottom: 160px;
+}
+
+.should-not-go .trend-indicator {
+    background-image: url(/images/red-arrow.svg);
+}
+
+.should-go .trend-indicator {
+    background-image: url(/images/green-arrow.svg);
+}
