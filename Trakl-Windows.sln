@@ -17,6 +17,9 @@ Global
 		Trakl_Windows.Shared\Trakl_Windows.Shared.projitems*{cdadf657-f9c2-41f6-a5a4-e9a3afdbc189}*SharedItemsImports = 13
 		Trakl_Windows.Shared\Trakl_Windows.Shared.projitems*{71fd5c91-c527-4ab8-aa4d-f4bc0e7e15f3}*SharedItemsImports = 5
 	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 5a5339d1-bbb1-44f9-84b5-bcc840475bc6
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
